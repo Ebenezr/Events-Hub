@@ -9,27 +9,30 @@
 </head>
 <body>
     <article class="container">
-        <div class="login">
+        <div class="container-box">
+        <div class="left-side">
 
             <h2>Welcome Back</h2>
             <button>Sign In</button>
         </div>
-        <div class="signup">
-            <form action="">
+        <div class="right-side">
+            <form class="form" action="">
                 <h2>Sign Up</h2>
-                <label for="name" required>Name</label>
-                <input type="text" class="field" required id="name" placeholder="Name">
-                
-                <label for="email" required>Email</label>
-                <input type="email" class="field" id="email" placeholder="name@mail.com">
+                <form action="Post">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" required placeholder="Name" class="input" />
+                    
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" required placeholder="name@mail.com" class="input"/>
+                    
+                    <label for="password">Password</label>
+                    <input type="password"  id="password" placeholder="********" class="input"/>
+                    
+                    <label for="cpassword">Cornfirm Password</label>
+                    <input type="password"  id="cpassword" placeholder="********" class="input"/>
 
-                <label for="password" >Password</label>
-                <input type="password" class="field" id="password" placeholder="********" required>
+                    <input type="submit" value="Sign Up"/>
 
-                <label for="password" >Confirm Password</label>
-                <input type="password" class="field" id="cPassword" placeholder="********" required>
-
-                <input type="submit" value="submit">
             </form>
         </div>
     </article>
