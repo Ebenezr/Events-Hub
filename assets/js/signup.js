@@ -82,7 +82,7 @@ function signup(){
 
 //log in submit button function
 
-function login(){
+function signin(){
     event.preventDefault();
      //get input fields values from the form
     var email = document.getElementById("lemail").value;
