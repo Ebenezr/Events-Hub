@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+article{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+
+}
+.login{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/landingpage_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    width:40%
+    
+    
+} 
+.signUp{
+    width:60%;
+    background-color:white;
+    height:100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:0.5em;
+    background-color:black;
+
+
+}
+.field{
+    display:block;
+    padding:1em 2em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+input[type="submit"]{
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    border: none;
+
+
+}
+button{
+    padding:0.3em 1em;
+    border-radius: 0.5em;
+    border: none;
+}
