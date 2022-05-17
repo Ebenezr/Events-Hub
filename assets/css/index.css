@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     padding: 0;
     margin: 0;
 }
 /* ....................... NAVIGATION SECTION ............................. */
 nav {
-    padding: 1rem 2rem;
-    width: 90%;
+    padding: 1rem 0;
+    width: 100%;
     top: 0;
     bottom: 0;
     position: absolute;
@@ -34,7 +35,7 @@ nav > .navMenu > .navLeft{
     border-radius: 50%;
     cursor: pointer;
     opacity: 1;
-   margin-right: 0.5rem;
+    margin-left: 1rem;
 }
 .navLeft > .logoImg:hover {
     opacity: 0.8;
@@ -84,6 +85,7 @@ nav > .navMenu > .navRight{
     align-items: center;
     justify-content: center;
     color: #ffffff;
+    cursor: pointer;
 }
 
 /* .............................. LANDING SECTION ........................................... */
@@ -109,22 +111,204 @@ nav > .navMenu > .navRight{
 
 #landingSection > .heading > p {
     font-size: 1.5rem;
-    font-family: 500;
+    font-family: 600;
     opacity: 0.8;
     margin-bottom: 1rem;
 }
+
 #landingSection > .heading > button {
-    background-color:#ffffff;
-    color: black;
-    padding: 1.4rem;
     cursor: pointer;
-    border: none;
-    border-radius: 0.7rem 1rem;
-    font-size: 2rem;
-    font-weight: 600;
+    background: transparent;
+    color:#ffffff;
+    padding: 0.7rem 1rem;
+    border: 1px solid #ffffff;
+    font-size: 1.2rem;
+
+    
 }
 
+/* ....................... UPCOMING EVENTS SECTION ................................ */
+#events {
+    background-color: #ECECEC;
+}
+#events > .eventContainer{
+    width: 95%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem;
+    
+}
+
+#events > .eventContainer > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.eventsWrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+} 
+.eventsWrapper > .eventCard {
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    border: 1px solid lightgray;
+    flex-direction: column;
+    margin-bottom: 0.625rem;
+    border-radius: 0.825rem;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #F6F6F6;
+
+}
+
+.eventCard > .imgContainer {
+    border-top-left-radius: 0.825rem;
+    border-top-right-radius: 0.825rem;
+    overflow: hidden;
+   
+   
+}
+.eventCard > .imgContainer > img {
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.eventCard > .infoContainer {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.eventCard > .infoContainer > h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.eventCard > .infoContainer > p {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.9;
+    
+}
+
+.eventCard > .infoContainer > button {
+    cursor:pointer;
+    border:none;
+    background-color: black;
+    color:white;
+    border-radius: 0.625rem;
+    padding: 0.625rem 1rem;
 
 
+}
+.price {
+    font-weight: 700;
+}
 
+.dateContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 2.5rem;
+    height: 3rem;
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    top:0;
+    right: 1rem;
+}
+.dateContainer > h3 > span {
+    vertical-align: super;
+}
+
+/* ........................... FOOTER SECTION ..................................... */
+#footer {
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+}
+#footer > h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+}
+#footer > .footerContainer {
+    display: flex;
+    margin-top: 3rem;
+    height: 20vh;
+}
+#footer > .footerContainer > .footerLeft {
+    flex:1;
+    
+}
+.footerLeft > .socialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footerLeft > .socialContainer > .fab {
+    width: 1.1rem;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+/* .fa-facebook-f {
+    background-color: #3B5999;
+}
+.fa-twitter {
+    background-color: #55ACEE;
+}
+.fa-instagram {
+    background-color: #E4405F;
+} */
+#footer > .footerContainer > .footerCenter {
+    flex:1;
+    text-align: center;
+    line-height: 1.5;
+}
+#footer > .footerContainer > .footerCenter > h3 {
+    font-weight: 300;
+    opacity: 0.8;
+}
+#footer > .footerContainer > .footerCenter > p {
+    font-weight: 300;
+    opacity: 0.6;
+}
+#footer > .footerContainer > .footerRight {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+.icon {
+    margin: 0.7rem;
+}
+.icon > .fas {
+    margin-right: 0.7rem;
+}
+
+.footerContainer > hr {
+    width: 70%;
+    margin: auto;
+}
 
