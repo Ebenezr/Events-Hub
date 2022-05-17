@@ -54,6 +54,13 @@
 .form label {
   font-size: 1em;
   margin: 1em 0;
+  color:#fff;
+  font-weight: 100;
+}
+.form h2{
+  color: #fff;
+  font-size:2.5em;
+  text-align: center;
 }
 /*form container*/
 .right-side{
@@ -74,6 +81,7 @@
   font-size: 1.1rem;
   transition: 0.3s;
   outline: none;
+  border-radius: 0.3em;
 }
 .input:hover {
   background-color: rgba(224, 213, 213, 0.836);
