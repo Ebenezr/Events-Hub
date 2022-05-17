@@ -115,9 +115,11 @@ input[type="submit"]:hover {
 a{
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 a:hover{
   color: rgb(216, 216, 216);
+  
 }
 /*media query*/
 

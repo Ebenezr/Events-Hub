@@ -66,12 +66,13 @@ function signup(){
         passwordArray.push(password);
 
         alert("Signup succesful. \nLogin Now");
-
+        //open login form
+        login();
         //reset the input fields
-        document.getElementById('username').value="";
-        document.getElementById("email").value ="";
-        document.getElementById("password").value="";
-        document.getElementById("cpassword").value="";
+        // document.getElementById('username').value="";
+        // document.getElementById("email").value ="";
+        // document.getElementById("password").value="";
+        // document.getElementById("cpassword").value="";
     }
     //if email is already used then..
     else{
