@@ -8,7 +8,13 @@ body {
 }
 /* ....................... NAVIGATION SECTION ............................. */
 nav {
-    width: 100%;
+    padding: 1rem 2rem;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+    margin: auto;
 }
 nav > .navMenu {
     display: flex;
@@ -34,10 +40,7 @@ nav > .navMenu > .navLeft{
     opacity: 0.8;
     transition: all 250ms ease-in-out;
 }
-.navLeft > .logo {
-    font-weight: 700;
-    font-size: 2rem;
-}
+
 
 /* CENTER NAVIGATION SECTION */
 nav > .navMenu > .navCenter{
@@ -48,6 +51,7 @@ nav > .navMenu > .navCenter{
 }
 .nav {
     display: flex;
+   
 }
 
 .nav > li {
@@ -79,7 +83,48 @@ nav > .navMenu > .navRight{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
 }
+
+/* .............................. LANDING SECTION ........................................... */
+#landingSection {
+    background:
+    linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+    url("../images/landingpage_bg.jpg")
+     center;
+     background-size: cover
+    ;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+#landingSection > .heading > h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#landingSection > .heading > p {
+    font-size: 1.5rem;
+    font-family: 500;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+#landingSection > .heading > button {
+    background-color:#ffffff;
+    color: black;
+    padding: 1.4rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.7rem 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
 
 
 

@@ -2,7 +2,7 @@
 ## Group Members 
     ![Ebenezar Bukosia](https://github.com/Ebenezr/)
     ![Bonface Masira]()
-    ![Maurice Nganga]()
+    ![Maurice Nganga](https://github.com/moryno)
     ![Timothy Mailu]()
   - 
 ## Figma design
