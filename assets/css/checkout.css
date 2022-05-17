@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.edmfest {
+    display: flex;
+    background-color: #EFEFEF;
+    height: 10em;
+    width: 100%;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+}
+.edmfest img {
+    float: left;
+    height: 7em;
+    margin-right: 2em;
+}
+.festdetails {
+    display: flex;
+    background-color: #D1D1D1;
+    margin: 1.5rem 0;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 5em;
+}
+.festdetails div {
+    padding-top: 1.5em;
+}
+input {
+    width: 3em;
+}
+.total {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D1D1D1;
+    width: 50%;
+    padding: 1.5em 0;
+    margin: 0 auto;
+    margin-top: 2em;
+    
+
+}
