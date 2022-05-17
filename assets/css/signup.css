@@ -112,6 +112,13 @@ input[type="submit"]:hover {
   background-color: rgb(206, 66, 66);
   
 }
+a{
+  color: white;
+  text-align: center;
+}
+a:hover{
+  color: rgb(216, 216, 216);
+}
 /*media query*/
 
 @media screen and (max-width: 780px) {

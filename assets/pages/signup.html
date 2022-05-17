@@ -10,34 +10,57 @@
 <body>
     <!-- main wrapper container -->
     <article class="container">
-        <div class="container-box">
+        <div class="container-box" >
         <div class="left-side">
 
-            <h2>Welcome Back</h2>
+            <h2>Events Hub</h2>
             <!-- button to redirect login page -->
-            <button>Sign In</button>
+           
         </div>
         <div class="right-side">
             <!-- registration form -->
             <form class="form" action="">
-                <h2>Sign Up</h2>
-                <form action="Post">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" required placeholder="Name" class="input" />
-                    
-                    <label for="lname">Email</label>
-                    <input type="text" id="lname" required placeholder="name@mail.com" class="input"/>
-                    
-                    <label for="password">Password</label>
-                    <input type="password"  id="password" placeholder="********" class="input"/>
-                    
-                    <label for="cpassword">Cornfirm Password</label>
-                    <input type="password"  id="cpassword" placeholder="********" class="input"/>
+              
 
-                    <input type="submit" value="Sign Up"/>
+                 <!-- login form -->
+                 <div class="login" id="login">
+                    <h2>Sign In</h2>
+                    
+                       
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" required placeholder="name@mail.com" class="input"/>
+                        
+                        <label for="password">Password</label>
+                        <input type="password"  id="password" placeholder="********" class="input"/>
+                        
+                        <input type="submit" value="Sign In"/>
+                        <a href="#" onclick="login()">You don't have an account yet? Register Here</a>
+                    </div>
+
+                    <!-- registration form -->
+                    <div class="signup" id="signup">
+                        <h2>Sign Up</h2>
+        
+                            <label for="fname">Name</label>
+                            <input type="text" id="fname" required placeholder="Name" class="input" />
+                            
+                            <label for="lname">Email</label>
+                            <input type="text" id="lname" required placeholder="name@mail.com" class="input"/>
+                            
+                            <label for="password">Password</label>
+                            <input type="password"  id="password" placeholder="********" class="input"/>
+                            
+                            <label for="cpassword">Cornfirm Password</label>
+                            <input type="password"  id="cpassword" placeholder="********" class="input"/>
+        
+                            <input type="submit" value="Sign Up"/>
+                            <a href="#" onclick="signup()" >You have an account already? Login Here</a>
+                        </div>
 
             </form>
         </div>
     </article>
+    
+    <script src="../js/signup.js"></script>
 </body>
 </html>
