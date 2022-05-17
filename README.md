@@ -1,7 +1,7 @@
 # EVENTS HUB
 ## Group Members 
     - Ebenezar Bukosia
-    - Boniface Masira
+    - Bonface Masira
     - Maurice Nganga
     - Timothy Mailu 
   - 
