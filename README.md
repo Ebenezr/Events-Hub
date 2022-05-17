@@ -1,7 +1,7 @@
 # EVENTS HUB
 ## Group Members 
     ![Ebenezar Bukosia](https://github.com/Ebenezr/)
-    ![Bonface Masira]()
+    [Bonface Masira](https://github.com/bonfacemasira/) 
     ![Maurice Nganga]()
     ![Timothy Mailu]()
   - 
