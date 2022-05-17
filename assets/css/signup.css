@@ -21,9 +21,15 @@
     height:100%;
     width:40%;
     color:white;
-    background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images/landingpage_bg.jpg") no-repeat;
+    background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat;
+    background-size: cover;
     align-items: center;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5em;
+
 
 }
 .left-side .logo {
@@ -37,19 +43,19 @@
   font-size: 2.5em;
   font-weight: 600;
   display: block;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
   text-align: center;
-  color: brown;
 }
 .left-side button {
     padding: 1em 6em;
-    border-radius:1em;
+    border-radius:1.5em;
     border: none;
 }
 .form label {
   font-size: 1em;
   margin: 1em 0;
 }
+/*form container*/
 .right-side{
     padding-top:2em;
     padding-left: 1em;
@@ -98,12 +104,12 @@ input[type="submit"]:hover {
   background-color: rgb(206, 66, 66);
   
 }
+/*media query*/
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   .contact-box {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
-  .right-side {
-    height: 200px;
-  }
+  
 }
