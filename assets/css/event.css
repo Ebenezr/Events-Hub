@@ -3,12 +3,90 @@
     padding: 0;
 }
 
+/* Navigatio Bar Section */
+
+nav {
+    width: 100%;
+}
+nav > .navMenu {
+    display: flex;
+    align-items: center;
+    
+}
+/* LEFT NAVIGATION SECTION */
+nav > .navMenu > .navLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.navLeft > .logoImg {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 1;
+   margin-right: 0.5rem;
+}
+.navLeft > .logoImg:hover {
+    opacity: 0.8;
+    transition: all 250ms ease-in-out;
+}
+.navLeft > .logo {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* CENTER NAVIGATION SECTION */
+nav > .navMenu > .navCenter{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+}
+
+.nav > li {
+    list-style: none !important;
+    font-weight: 200;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;   
+}
+.nav > li:hover {
+    font-weight: 500;  
+    transition: all 250ms ease;
+}
+.nav > li > a {
+    text-decoration: inherit;
+    color: inherit;
+    
+}
+/* RIGHT NAVIGATION SECTION */
+nav > .navMenu > .navRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile > img {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Event Section */
 div.event_holder{
     width: 90%;
     margin: auto;
     display: flex;
     background-color: rgb(235, 235, 235);
-
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -49,4 +127,5 @@ button.checkout{
     font-size: 2rem;
     padding: 1.4rem;
     margin-top: 3rem;
+    cursor: pointer;
 }
