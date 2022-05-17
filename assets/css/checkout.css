@@ -148,6 +148,8 @@ button.checkout {
 button > i{
     color: white;
 }
+/* Media querry */
+
 @media (max-width: 560px) {
 
     .edmfest img {
