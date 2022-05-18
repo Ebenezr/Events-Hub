@@ -4,34 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
+    <!-- main wrapper container -->
     <article class="container">
-        <div class="login">
+        <div class="container-box" >
+        <div class="left-side">
 
-            <h2>Welcome Back</h2>
-            <button>Sign In</button>
+            <h2>Events Hub</h2>
+            <!-- button to redirect login page -->
+           
         </div>
-        <div class="signup">
-            <form action="">
-                <h2>Sign Up</h2>
-                <label for="name" required>Name</label>
-                <input type="text" class="field" required id="name" placeholder="Name">
-                
-                <label for="email" required>Email</label>
-                <input type="email" class="field" id="email" placeholder="name@mail.com">
+        <div class="right-side">
+            <!-- registration form -->
+            <form class="form" action="">
+              
 
-                <label for="password" >Password</label>
-                <input type="password" class="field" id="password" placeholder="********" required>
+                 <!-- login form -->
+                 <div class="login" id="login">
+                    <h2>Sign In</h2>
+                    
+                       
+                        <label for="lemail">Email</label>
+                        <input type="text" id="lemail" required placeholder="name@mail.com" class="input"/>
+                        
+                        <label for="lpassword">Password</label>
+                        <input type="password"  id="lpassword" placeholder="********" class="input"/>
+                        
+                        <input type="submit" onclick="signin()" value="Sign In"/>
+                        <a href="#" onclick="login()">You don't have an account yet? Register Here</a>
+                    </div>
 
-                <label for="password" >Confirm Password</label>
-                <input type="password" class="field" id="cPassword" placeholder="********" required>
+                    <!-- registration form -->
+                    <div class="signup" id="signup">
+                        <h2>Sign Up</h2>
+        
+                            <label for="fname">Name</label>
+                            <input type="text" id="username" required placeholder="Name" class="input" />
+                            
+                            <label for="lname">Email</label>
+                            <input type="text" id="email" required placeholder="name@mail.com" class="input"/>
+                            
+                            <label for="password">Password</label>
+                            <input type="password"  id="password" placeholder="********" class="input"/>
+                            
+                            <label for="cpassword">Cornfirm Password</label>
+                            <input type="password"  id="cpassword" placeholder="********" class="input"/>
+        
+                            <input type="submit" value="Sign Up" onclick="signup()"/>
+                            <a href="#" onclick="signup()" >You have an account already? Login Here</a>
+                        </div>
 
-                <input type="submit" value="submit">
             </form>
         </div>
     </article>
+    
+    <script src="../js/signup.js"></script>
 </body>
 </html>
