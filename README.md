@@ -8,7 +8,7 @@
 - [Timothy Mailu](https://github.com/Tim254)
 
 ## Screenshot
- ![image](./assets/images/snip.png)
+ ![image](./assets/images/screenshot.png)
 
  ## Table of Content
  - [Figma Design](#Figma-design)
@@ -24,7 +24,7 @@
  
 
 ## Figma design
--https://www.figma.com/file/tjogjZ7ycG3cR06uHDsyAk/landingpage?node-id=0%3A1 
+Event-Hub Design: https://www.figma.com/file/tjogjZ7ycG3cR06uHDsyAk/landingpage?node-id=0%3A1 
  
  ## Description
  <p>This project is a web application for an Event Company. It allows a user to view available events and book tickets to the selected events. Payment is made via M-Pesa paybill number that will be displayed on the screen on checkout. A unique account number is generated for evry event ticket booking.</p>
