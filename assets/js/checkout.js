@@ -18,6 +18,7 @@ for (i = 0; i < removeEvent.length; i++) {
            console.log(priceElement, quantityElement)
            var price = parseFloat(priceElement.innerText.replace('Ksh.', ''))
            console.log(price)
+           
        }
 
     }
