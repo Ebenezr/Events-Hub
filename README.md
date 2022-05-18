@@ -1,5 +1,5 @@
 # EVENTS HUB 
-**
+***
 ## Group Members 
 
 - [Ebenezar Bukosia](https://github.com/Ebenezr)
