@@ -21,69 +21,76 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+
 }
-nav > .navMenu {
+
+nav>.navMenu {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    
+
 }
+
 /* LEFT NAVIGATION SECTION */
-nav > .navMenu > .navLeft{
+nav>.navMenu>.navLeft {
     flex: 1;
     display: flex;
     align-items: center;
     justify-self: flex-start;
     padding-left: 1rem;
 }
-.navLeft > .logoImg {
+
+.navLeft>.logoImg {
     width: 2.5rem;
     height: 2.5rem;
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
     opacity: 1;
-    
+
 }
-.navLeft > .logoImg:hover {
+
+.navLeft>.logoImg:hover {
     opacity: 0.8;
     transition: all 250ms ease-in-out;
 }
 
 
 /* CENTER NAVIGATION SECTION */
-nav > .navMenu > .navCenter{
+nav>.navMenu>.navCenter {
     flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav {
     display: flex;
-   
+
 }
 
-.nav > li {
+.nav>li {
     list-style: none !important;
     font-weight: 400;
     margin-right: 1rem;
     padding: 0.5rem;
-    cursor: pointer;   
+    cursor: pointer;
 }
-.nav > li:hover {
-    font-weight: 600;  
+
+.nav>li:hover {
+    font-weight: 600;
     transition: all 250ms ease;
 }
-.nav > li > a {
+
+.nav>li>a {
     text-decoration: inherit;
     color: inherit;
-    
 }
+
 /* RIGHT NAVIGATION SECTION */
-nav > .navMenu > .navRight{
+nav>.navMenu>.navRight {
     flex: 1;
     display: flex;
     align-items: center;
@@ -92,7 +99,8 @@ nav > .navMenu > .navRight{
     padding-right: 1rem;
 
 }
-.profile > img {
+
+.profile>img {
     width: 1.25rem;
     height: 1.25rem;
     display: flex;

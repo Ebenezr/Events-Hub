@@ -3,8 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
+
+
+
+/*main section start*/
 .container{
   background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat;
   background-size: cover;
@@ -16,6 +19,7 @@
 }
 .container-box {
   
+  margin-top:5em !important;
   width:60%;
   height:50vh;
   margin: 2em auto;
@@ -90,9 +94,10 @@
   transition: 0.3s;
   outline: none;
   border-radius: 0.3em;
+  background-color: #fff;
 }
 .input:hover {
-  background-color: rgba(224, 213, 213, 0.836);
+  background-color: rgba(220, 220, 220, 0.836);
 }
 .input:focus {
   background-color: white;
@@ -103,7 +108,7 @@ select:required:invalid {
   color: gray;
 }
 select:hover {
-  background-color: rgba(224, 213, 213, 0.836);
+  background-color: rgba(223, 223, 223, 0.836);
 }
 input[type="submit"] {
   padding: 0.6rem 6rem;
@@ -131,10 +136,14 @@ a:hover{
 }
 /*media query*/
 
+
+
+
 @media screen and (max-width: 780px) {
-  .contact-box {
-    display: flex;
-    flex-direction: column;
+  .container-box {
+    width:90%;
+    height:55vh;
+    
   }
   
 }
