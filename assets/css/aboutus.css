@@ -83,3 +83,81 @@ nav > .navMenu > .navRight{
     color: #ffffff;
     cursor: pointer;
 }
+
+/* About Us Section */
+div.aboutus_parent{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 4rem;
+}
+
+div.aboutus_container{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(240, 233, 233);
+    border-radius: 3rem;
+}
+
+div.aboutus_header{
+    font-weight: 900;
+    font-size: 2.4rem;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+div.sections_container{
+    width: 100%;
+}
+
+div.aboutus_section{
+    display: flex;
+    margin: 3rem;
+}
+
+div.left{
+    width: 50%;
+    height: 50%;
+    padding: 0 3rem;
+}
+
+div.left > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.left > h3{
+    font-size: 2rem;
+}
+
+div.left > p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
+
+div.right{
+    width: 50%;
+    height: 50%;
+    padding: 0 3rem;
+}
+
+div.right > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.right > h3{
+    font-size: 2rem;
+}
+
+div.right > p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
