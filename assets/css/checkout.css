@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 /* ....................... NAVIGATION SECTION ............................. */
+
 nav {
-    width: 100%;
+    padding: 1rem 2rem;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: black;
+    margin: auto;
 }
 nav > .navMenu {
     display: flex;
@@ -31,10 +38,7 @@ nav > .navMenu > .navLeft{
     opacity: 0.8;
     transition: all 250ms ease-in-out;
 }
-.navLeft > .logo {
-    font-weight: 700;
-    font-size: 2rem;
-}
+
 
 /* CENTER NAVIGATION SECTION */
 nav > .navMenu > .navCenter{
@@ -45,6 +49,7 @@ nav > .navMenu > .navCenter{
 }
 .nav {
     display: flex;
+   
 }
 
 .nav > li {
@@ -76,11 +81,14 @@ nav > .navMenu > .navRight{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
 }
+
+/* Checkout section */
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 5em auto;
 }
 .edmfest {
     display: flex;
@@ -99,7 +107,7 @@ nav > .navMenu > .navRight{
 .festdetails {
     display: flex;
     background-color: #D1D1D1;
-    margin: 1.5rem 0;
+    margin: 1.5rem 1.5em;
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
@@ -113,12 +121,61 @@ input {
 }
 .total {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #D1D1D1;
     width: 50%;
-    padding: 1.5em 0;
+    padding: 1.5em 1.5em;
     margin: 0 auto;
     margin-top: 2em;
-    
+}
+button.arrow {
+    background-color: #F25287;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    border: none;
+    padding: 0.3em;
+}
+button.checkout {
+    background-color: #F25287;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.8em;
+}
+button > i{
+    color: white;
+}
+/* Media querry */
 
+@media (max-width: 560px) {
+
+    .edmfest img {
+        float: left;
+        height: 5em;
+        margin-right: 1em;
+    }
+    .festdetails {
+        display: flex;
+        background-color: #D1D1D1;
+        margin: 0.8em 0;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 3em;
+    }
+    .festdetails div {
+        padding-top: 0em;
+        font-size: 0.8em;
+    }
+    button.arrow {
+        background-color: #F25287;
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+        border: none;
+        padding: 0.2em;
+    }
 }
