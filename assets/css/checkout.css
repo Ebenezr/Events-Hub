@@ -91,9 +91,8 @@ nav > .navMenu > .navRight{
     margin: 5em auto;
 }
 .events  {
-    margin: auto;
-    width: 100%;
-    height: 15%;
+    margin: 5em auto;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
