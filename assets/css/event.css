@@ -6,7 +6,12 @@
 /* Navigatio Bar Section */
 
 nav {
+    padding: 1rem 0;
     width: 100%;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    margin: auto;
 }
 nav > .navMenu {
     display: flex;
@@ -26,16 +31,13 @@ nav > .navMenu > .navLeft{
     border-radius: 50%;
     cursor: pointer;
     opacity: 1;
-   margin-right: 0.5rem;
+    margin-left: 1rem;
 }
 .navLeft > .logoImg:hover {
     opacity: 0.8;
     transition: all 250ms ease-in-out;
 }
-.navLeft > .logo {
-    font-weight: 700;
-    font-size: 2rem;
-}
+
 
 /* CENTER NAVIGATION SECTION */
 nav > .navMenu > .navCenter{
@@ -46,6 +48,7 @@ nav > .navMenu > .navCenter{
 }
 .nav {
     display: flex;
+   
 }
 
 .nav > li {
@@ -77,16 +80,22 @@ nav > .navMenu > .navRight{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 
 /* Event Section */
+div.event_container{
+    margin-top: 4rem;
+}
+
 div.event_holder{
     width: 90%;
     margin: auto;
     display: flex;
     background-color: rgb(235, 235, 235);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     position: relative;
 }
 
