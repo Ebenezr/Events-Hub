@@ -5,24 +5,32 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
+.container{
+  background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat;
+  background-size: cover;
+  height:70vh;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
 
+}
 .container-box {
   
-  width:80%;
+  width:60%;
   height:50vh;
   margin: 2em auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.308);
-  box-shadow: 0 0 0 0.25rem rgba(107, 13, 13, 0.062);
+  background-color: rgba(128, 128, 128, 0.381);
+  padding:1.5em;
+  border-radius: 0.6em;
+
+  /* background-color: rgba(0, 0, 0, 0.308); */
+ 
 }
 .left-side{
     height:100%;
     width:40%;
     color:white;
-    background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat;
-    background-size: cover;
+
     align-items: center;
     text-align: center;
     display:flex;
