@@ -8,8 +8,8 @@ for (i = 0; i < removeEvent.length; i++) {
         updateTotal()
     }) 
 
-    var quantityInputs = getElementsByClassName('quantity')
-    for (i = 0; i < quantityInputs.length; i++)
+    // var quantityInputs = getElementsByClassName('quantity')
+    // for (i = 0; i < quantityInputs.length; i++)
 
 }
     function updateTotal() {
