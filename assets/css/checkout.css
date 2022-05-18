@@ -145,12 +145,14 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: flex-start; */
     background-color: #D1D1D1;
     width: 30%;
     padding: 1.5em 1.5em;
     margin: 0 auto;
     margin-top: 2em;
+}
+.container > .total {
+    float: right;
 }
 button.remove {
     background-color: #F25287;
