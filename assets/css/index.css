@@ -70,8 +70,7 @@ nav > .navMenu > .navCenter{
 }
 .nav > li > a {
     text-decoration: inherit;
-    color: inherit;
-    
+    color: inherit;   
 }
 /* RIGHT NAVIGATION SECTION */
 nav > .navMenu > .navRight{
