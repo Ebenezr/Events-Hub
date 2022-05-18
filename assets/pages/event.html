@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>
-    <link rel="stylesheet" href="../css/event.css">
-</head>
-<body>
-
-    <!-- Link event page to event.js file -->
-    <script src="../js/event.js"></script>
-
-    <!-- Navigation bar -->
-    <nav>
-        <div class="navMenu">
-            <div class="navLeft">
-                <img class="logoImg" src="../images/landingpage.png" alt="logoImg"/>
-            </div>
-            <div class="navCenter">
-                <ul class="nav">
-                    <li><a href="#"> HOME</a></li>
-                    <li><a href="#"> EVENTS </a></li>
-                    <li><a href="./aboutus.html"> ABOUT US </a></li>
-                    <li><a href="#"> CONTACT</a></li>
-                </ul>
-            </div>
-            <div class="navRight">
-                <ul class="nav">
-                    <li><a href="#"> LOGIN </a></li>
-                </ul>
-            <div class="profile">
-                <img src="../images/user-profile.png" alt="profileImg" />
-            </div>
-        </div>
-    </nav>
-  
-    <!-- Event Profile Section -->
-    <div class="event_container">
-        <div class="event_holder">
-            <div class="event_image">
-                <img src="../images/grid4.jpg" alt="">
-            </div>
-            <div class="event_description">
-                <div class="event_info">
-                    <div class="event_name"><p>EDM FEST</p></div>
-                    <div class="event_details">
-                        <p>Venue: Quiver Rave</p>
-                        <p>Artist: Sauti Sol, Kidum</p>
-                        <p>Date: June 6th 2022</p>
-                        <p>Price: Ksh. 2,500</h3>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event</title>
+        <link rel="stylesheet" href="../css/event.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/889562c6d8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Link event page to event.js file -->
+        <script src="../js/event.js"></script>
+        <!-- Navigation bar -->
+        <nav>
+            <div class="navMenu">
+                <div class="navLeft">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="navCenter">
+                    <ul class="nav">
+                        <li>
+                            <a href="../../index.html"> HOME</a>
+                        </li>
+                        <li>
+                            <a href="../../index.html"> EVENTS</a>
+                        </li>
+                        <li>
+                            <a href="./aboutus.html"> ABOUT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navRight">
+                    <ul class="nav">
+                        <li>
+                            <a href="#"> LOGIN</a>
+                        </li>
+                    </ul>
+                    <div class="profile">
+                        <img src="../images/user-profile.png" alt="profileImg">
                     </div>
-                    <button class="checkout" onclick="promptCheckout()">ADD TO CART</button>
+                </div>
+            </nav>
+            <!-- Event Profile Section -->
+            <div class="event_container">
+                <div class="event_holder">
+                    <div class="event_image">
+                        <img src="../images/grid4.jpg" alt="">
+                    </div>
+                    <div class="event_description">
+                        <div class="event_info">
+                            <div class="event_name">
+                                <p>EDM FEST</p>
+                            </div>
+                            <div class="event_details">
+                                <p>Venue: Quiver Rave</p>
+                                <p>Artist: Sauti Sol, Kidum</p>
+                                <p>Date: June 6th 2022</p>
+                                <p>Price: Ksh. 2,500
+                                </h3>
+                            </div>
+                            <button class="checkout" onclick="promptCheckout()">ADD TO CART</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-</body>
-</html>
+        </body>
+    </html>
