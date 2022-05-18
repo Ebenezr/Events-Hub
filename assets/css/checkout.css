@@ -90,6 +90,27 @@ nav > .navMenu > .navRight{
     width: 80%;
     margin: 5em auto;
 }
+.events  {
+    margin: 5em auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 700;
+    color: #2F3841;
+   }
+.action{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
 .edmfest {
     display: flex;
     background-color: #EFEFEF;
@@ -102,7 +123,7 @@ nav > .navMenu > .navRight{
 .edmfest img {
     float: left;
     height: 7em;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 .festdetails {
     display: flex;
@@ -123,12 +144,22 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     background-color: #D1D1D1;
-    width: 50%;
+    width: 30%;
     padding: 1.5em 1.5em;
     margin: 0 auto;
     margin-top: 2em;
+}
+.container > .total {
+    float: right;
+}
+button.remove {
+    background-color: #F25287;
+    border: none;
+    border-radius: 1.5em;
+    width: 5.5em;
+    height: 1.5em;
+    color: white;
 }
 button.arrow {
     background-color: #F25287;
@@ -144,13 +175,14 @@ button.checkout {
     border-radius: 10px;
     border: none;
     padding: 0.8em;
+    width: 10em;
 }
 button > i{
     color: white;
 }
 /* Media querry */
 
-@media (max-width: 560px) {
+@media (max-width: 650px) {
 
     .edmfest img {
         float: left;
@@ -158,24 +190,33 @@ button > i{
         margin-right: 1em;
     }
     .festdetails {
-        display: flex;
-        background-color: #D1D1D1;
         margin: 0.8em 0;
-        width: 100%;
-        justify-content: space-evenly;
-        text-align: center;
         height: 3em;
     }
     .festdetails div {
         padding-top: 0em;
         font-size: 0.8em;
     }
+    input {
+        width: 1em;
+        height: 1em;
+    }
     button.arrow {
-        background-color: #F25287;
-        border-radius: 50%;
-        width: 1.5em;
-        height: 1.5em;
-        border: none;
+        width: 1.2em;
+        height: 1.2em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
         padding: 0.2em;
+    }
+    .total {
+        display: inline-block;
+        width: 30%;
+        padding: 1em 1em;
+        margin: 0 auto;
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    button.checkout {
+        border: none;
+        padding: 0.5em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        width: 5em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        em;
     }
 }
