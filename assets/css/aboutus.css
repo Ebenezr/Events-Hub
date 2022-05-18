@@ -3,3 +3,171 @@
     padding: 0;
 }
 
+/* Navigatio Bar Section */
+
+nav {
+    padding: 1rem 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    margin: auto;
+}
+nav > .navMenu {
+    display: flex;
+    align-items: center;
+    
+}
+/* LEFT NAVIGATION SECTION */
+nav > .navMenu > .navLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.navLeft > .logoImg {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 1;
+    margin-left: 1rem;
+}
+.navLeft > .logoImg:hover {
+    opacity: 0.8;
+    transition: all 250ms ease-in-out;
+}
+
+
+/* CENTER NAVIGATION SECTION */
+nav > .navMenu > .navCenter{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+   
+}
+
+.nav > li {
+    list-style: none !important;
+    font-weight: 200;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;   
+}
+.nav > li:hover {
+    font-weight: 500;  
+    transition: all 250ms ease;
+}
+.nav > li > a {
+    text-decoration: inherit;
+    color: inherit;
+    
+}
+/* RIGHT NAVIGATION SECTION */
+nav > .navMenu > .navRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile > img {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* About Us Section */
+div.aboutus_parent{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 4rem;
+}
+
+div.aboutus_container{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(240, 233, 233);
+    border-radius: 3rem;
+}
+
+div.aboutus_header{
+    font-weight: 900;
+    font-size: 2.4rem;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+div.sections_container{
+    width: 100%;
+}
+
+div.aboutus_section{
+    display: flex;
+    margin: 3rem;
+}
+
+div.left{
+    width: 50%;
+    height: 50%;
+    padding: 0 3rem;
+}
+
+div.left > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.left > h3{
+    font-size: 2rem;
+}
+
+div.left > p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
+
+div.right{
+    width: 50%;
+    height: 50%;
+    padding: 0 3rem;
+}
+
+div.right > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.right > h3{
+    font-size: 2rem;
+}
+
+div.right > p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
+
+@media only screen and (max-width: 720px) {
+    div.aboutus_section{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
