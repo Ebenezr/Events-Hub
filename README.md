@@ -19,7 +19,7 @@
  ![image](./assets/images/FireShotCapture_info.png)
  ***
  ### checkout
- ![image](./assets/images/)
+ ![image](./assets/images/FireShotCapture_checkout.png)
 
 ***
  ## Table of Content

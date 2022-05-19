@@ -12,7 +12,7 @@ window.addEventListener("load", () =>{
 })
     
 });
-
+//dispay selected event on the event info page
 const addItemsToEvent = (title, price, venue, imageSrc) => {
     const eventHolder = document.createElement("div");
     eventHolder.classList.add("event_holder")
@@ -30,7 +30,7 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
                     <p class="date">Date: June 6th 2022</p>
                     <p class="price">${price}</p>
                 </div>
-                <button class="checkout" ><a href="./assets/pages/checkout.html">CheckOut</a></button>
+                <button class="checkout" ><a href="./signup.html">CheckOut</a></button>
             </div>
         </div>
     `
