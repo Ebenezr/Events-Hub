@@ -65,13 +65,10 @@ nav {
     padding-top: 1.5em;
 }
 input {
-<<<<<<< HEAD
     width: 3em;
     height: 2em;
-=======
     padding: 0.3em;
     border:none;
->>>>>>> 389dfd9729cdcd8d3e92ea39524d58d3557f2dfa
 
 }
 .cartTotal{
