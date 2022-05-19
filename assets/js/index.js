@@ -38,7 +38,6 @@
   
 // }
 
-<<<<<<< HEAD
   
 
 // const onSelect = () =>{
@@ -98,10 +97,6 @@ for(let i = 0; i < addToSingleEventButtons.length; i++){
     addButton.addEventListener("click", addToEvents);
 }
 
-<<<<<<< HEAD
-=======
-
-
 const onSelect = () =>{
    const cards = document.querySelector(".eventCard");
 
@@ -112,9 +107,6 @@ const onSelect = () =>{
    });
 }
 onSelect();
->>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
-=======
-
 const eventConfirm = (title, price,venue) =>{
     confirm(
         "Title: " + title + "\n" +
@@ -124,4 +116,5 @@ const eventConfirm = (title, price,venue) =>{
 
     )
 }
->>>>>>> c8d77e1ff8b4defa660e736178781c9693bd49d5
+
+
