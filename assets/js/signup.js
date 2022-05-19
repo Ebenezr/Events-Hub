@@ -27,9 +27,9 @@ function register() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("cpassword").value;
+    var emailFormat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
 
-
-    // //form validation
+      // //form validation
     // //check if name input in empty
     if (username == "") {
         alert("Name required.");
@@ -40,6 +40,11 @@ function register() {
         alert("Email required.");
         return;
     }
+   else if(email.value.match(emailFormat)){
+        alert("Enter valid email format.");
+        return;
+    }
+    
 
     // //check if password input in empty
     else if (password == "") {
