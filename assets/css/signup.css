@@ -3,13 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-
+nav {
+  color: black !important;
+}
 
 
 /*main section start*/
 .container{
-  background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat;
+  /* background: linear-gradient(rgba(70, 70, 70, 0.4),rgba(0, 0, 0, 0.5)) , url("../images//landingpage_bg.jpg") no-repeat; */
+  background-color: #ECECEC;
   background-size: cover;
   height:70vh;
   display:flex;
@@ -23,7 +31,7 @@
   width:60%;
   height:50vh;
   margin: 2em auto;
-  background-color: rgba(128, 128, 128, 0.381);
+  background-color: rgba(79, 79, 79, 0.338);
   padding:1.5em;
   border-radius: 0.6em;
 
@@ -33,7 +41,7 @@
 .left-side{
     height:100%;
     width:40%;
-    color:white;
+    color:rgb(0, 0, 0);
 
     align-items: center;
     text-align: center;
@@ -66,11 +74,11 @@
 .form label {
   font-size: 1em;
   margin: 1em 0;
-  color:#fff;
-  font-weight: 100;
+  color:rgb(0, 0, 0);
+  font-weight: 300;
 }
 .form h2{
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size:2.5em;
   text-align: center;
 }
@@ -116,7 +124,7 @@ input[type="submit"] {
   border-radius: 4px;
   border: none;
   background-color: brown;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 1em auto;
   font-size: 1rem;
  
@@ -126,12 +134,12 @@ input[type="submit"]:hover {
   
 }
 a{
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
 }
 a:hover{
-  color: rgb(216, 216, 216);
+  color: rgb(52, 52, 52);
   
 }
 /*media query*/

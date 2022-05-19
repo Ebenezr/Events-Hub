@@ -9,6 +9,7 @@ body {
 }
 
 body{
+    background-color: #ECECEC;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -22,8 +23,8 @@ nav{
 /* About Us Section */
 div.aboutus_parent{
     width: 90%;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
+    margin: auto; 
+   
     margin-top: 4rem;
 }
 
@@ -34,7 +35,7 @@ div.aboutus_container{
     margin-bottom: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: rgb(240, 233, 233);
+    background-color: #F6F6F6;
     border-radius: 3rem;
 }
 

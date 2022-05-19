@@ -112,6 +112,7 @@ nav>.navMenu>.navRight {
 
 nav i {
   font-size: 2em;
+  color: brown;
 }
 
 @media screen and (max-width: 720px) {

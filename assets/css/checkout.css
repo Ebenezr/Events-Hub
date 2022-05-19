@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #ECECEC;
+}
  /* Navbar */
 
 nav {
@@ -89,7 +92,7 @@ input {
     float: right;
 }
 button.remove {
-    background-color: #F25287;
+    background-color: brown;
     border: none;
     border-radius: 1.5em;
     width: 5.5em;
@@ -97,7 +100,7 @@ button.remove {
     color: white;
 }
 button.arrow {
-    background-color: #F25287;
+    background-color: brown;
     border-radius: 50%;
     width: 2em;
     height: 2em;
@@ -105,7 +108,7 @@ button.arrow {
     padding: 0.3em;
 }
 button.checkout {
-    background-color: #F25287;
+    background-color: brown;
     color: white;
     border-radius: 10px;
     border: none;

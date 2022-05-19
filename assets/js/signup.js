@@ -126,7 +126,7 @@ function signin() {
         document.getElementById("lemail").value = "";
         document.getElementById("lpassword").value = "";
         //window.location.
-        window.location.href="./assets/pages/checkout.html";
+        window.location.href="./checkout.html";
         return;
     }
 

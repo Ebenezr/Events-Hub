@@ -109,3 +109,11 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
     // eventHolder.innerHTML = eventHolderContents;
     // eventContainer.append(eventHolder)
 }
+
+
+    const titles = document.getElementsByClassName("eventTitle");
+    for(let i = 0; i < titles.length; i++){
+        titles[i].addEventListener("click", function(){
+            window.location.href = "./assets/pages/event.html"
+        })
+    }
