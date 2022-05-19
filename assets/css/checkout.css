@@ -65,8 +65,13 @@ nav {
     padding-top: 1.5em;
 }
 input {
+<<<<<<< HEAD
+    width: 3em;
+    height: 2em;
+=======
     padding: 0.3em;
     border:none;
+>>>>>>> 389dfd9729cdcd8d3e92ea39524d58d3557f2dfa
 
 }
 .cartTotal{
@@ -115,10 +120,39 @@ button.checkout {
     padding: 0.8em;
     cursor: pointer;
     width: 10em;
+    width: 10em;
+
 }
+
 button > i{
     color: white;
 }
+#payment-details {
+    margin: 1em;
+    font-size: 0.5em;
+}
+.checkout-payment{
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    border-radius: 0.5em;
+    box-shadow: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.802);
+    color: #fff;
+    padding: 3em 1em;
+    right: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+
+}
+
 
 #footer {
     width: 100%;
@@ -229,6 +263,7 @@ button > i{
       }
       
   }
+  
 /* Media querry */
 
 @media (max-width: 650px) {

@@ -139,7 +139,7 @@ body {
     margin-top: 1rem;
     cursor:pointer;
     border:none;
-    background-color: black;
+    background-color: brown;
     color:white;
     border-radius: 0.625rem;
     padding: 0.625rem 1rem;
@@ -157,7 +157,7 @@ body {
     flex-direction: column;
     width: 2.5rem;
     height: 3rem;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.798);
     color: #ffffff;
     position: absolute;
     top:0;
