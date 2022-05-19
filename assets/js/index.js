@@ -86,8 +86,8 @@ const eventConfirm = (title, price,venue) =>{
 
 const addItemsToEvent = (title, price, venue, imageSrc) => {
     const eventHolder = document.createElement("div");
-    eventHolder.classList.add("event_holder")
-    const eventContainer = document.getElementById("event_container");
+    // eventHolder.classList.add("event_holder")
+    const eventContainer = document.getElementById("display");
     const eventHolderContents = `
         <div class="event_holder">
         <div class="event_image">
@@ -105,9 +105,9 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
             </div>
         </div>
     `
-//    alert(eventHolderContents)
-    // eventHolder.innerHTML = eventHolderContents;
-    // eventContainer.append(eventHolder)
+   
+    eventHolder.innerHTML = eventHolderContents;
+    eventContainer.appendChild(eventHolder)
 }
 
 
@@ -117,3 +117,5 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
             window.location.href = "./assets/pages/event.html"
         })
     }
+    
+    
