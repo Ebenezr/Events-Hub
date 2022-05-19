@@ -51,6 +51,10 @@ body {
 
     
 }
+#landingSection > .heading > button a {
+    text-decoration: inherit;
+    color: inherit;  
+}
 
 /* ....................... UPCOMING EVENTS SECTION ................................ */
 #events {
