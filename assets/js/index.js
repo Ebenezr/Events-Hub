@@ -7,12 +7,35 @@
 
 
 // function appendData(data) {
-//     const eventCard = document.querySelector(".eventCard");
-//     data.forEach(item => {
-//     const title = document.querySelector("h4");
-//     title.innerHTML = item.title
-//     eventCard.appendChild(title)
-//     });
+//     const eventContainer = document.getElementsByClassName("eventsWrapper");
+//     for(let i = 0; i < data.length; i++){
+//         const eventCard = document.createElement("div");
+//         eventCard.classList.add("eventCard");
+//         const eventCardContent = `
+//                 <div class="imgContainer">
+//                 <img
+//                 class="eventImg"
+//                 src="./assets/images/grid2.jpg"
+//                 alt="gridImg"
+//                 />
+//             </div>
+//             <div class="infoContainer">
+//                 <h4 class="eventTitle">Fest Event</h4>
+//                 <p class="venue">Venue: Signature Club</p>
+//                 <p class="price">Ksh2000</p>
+//                 <button class="addButton">Buy Ticket</button>
+//             </div>
+//             <div class="dateContainer">
+//                 <h3>May</h3>
+//                 <h3 class="price">
+//                 21
+//                 <span>st</span>
+//                 </h3>
+//             </div>
+//         `
+//     }
+    
+  
 // }
 
 <<<<<<< HEAD
@@ -40,12 +63,13 @@ const addToEvents = (event) => {
     const venue = cardItem.getElementsByClassName("venue")[0].textContent;
     const imageSrc = cardItem.getElementsByClassName("eventImg")[0].src;
     addItemsToEvent(title, price,venue,imageSrc);
+    eventConfirm(title, price,venue)
 }
 
 const addItemsToEvent = (title, price, venue, imageSrc) => {
     const eventHolder = document.createElement("div");
     eventHolder.classList.add("event_holder")
-    const eventContainer = document.getElementsByClassName("event_container")[0];
+    const eventContainer = document.getElementById("event_container");
     const eventHolderContents = `
         <div class="event_holder">
         <div class="event_image">
@@ -63,17 +87,18 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
             </div>
         </div>
     `
-    console.log(eventHolderContents)
+//    alert(eventHolderContents)
     // eventHolder.innerHTML = eventHolderContents;
     // eventContainer.append(eventHolder)
 }
 
-const addToSingleEventButtons = document.getElementsByClassName("eventCardButton");
+const addToSingleEventButtons = document.getElementsByClassName("addButton");
 for(let i = 0; i < addToSingleEventButtons.length; i++){
     const addButton = addToSingleEventButtons[i];
     addButton.addEventListener("click", addToEvents);
 }
 
+<<<<<<< HEAD
 =======
 
 
@@ -88,3 +113,15 @@ const onSelect = () =>{
 }
 onSelect();
 >>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
+=======
+
+const eventConfirm = (title, price,venue) =>{
+    confirm(
+        "Title: " + title + "\n" +
+        "Venue: " + venue + "\n" +
+        "Price: " + price + "\n"
+         
+
+    )
+}
+>>>>>>> c8d77e1ff8b4defa660e736178781c9693bd49d5
