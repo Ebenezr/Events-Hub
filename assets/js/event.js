@@ -6,6 +6,10 @@ window.addEventListener("load", () =>{
    
     addItemsToEvent(title, price, venue, imageSrc)
    
+    const addToCartButton = document.querySelector(".checkout");
+    addToCartButton.addEventListener("click", function(){
+    window.location.href = "checkout.html"
+})
     
 });
 
@@ -26,7 +30,7 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
                     <p class="date">Date: June 6th 2022</p>
                     <p class="price">${price}</p>
                 </div>
-                <button class="checkout" >CheckOut</button>
+                <button class="checkout" ><a href="./assets/pages/checkout.html">CheckOut</a></button>
             </div>
         </div>
     `
@@ -35,3 +39,6 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
     eventContainer.append(eventHolder)
 
 }
+
+
+

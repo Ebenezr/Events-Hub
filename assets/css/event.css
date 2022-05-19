@@ -73,11 +73,11 @@ div.event_info{
 
 button.checkout{
     color: white;
-    background-color: brown;
+    background-color: black;
     border: none;
-    border-radius: 1.5rem;
-    font-size: 2rem;
-    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    padding: 0.75rem 1.3rem;
     margin-top: 3rem;
     cursor: pointer;
 }
