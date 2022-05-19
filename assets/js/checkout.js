@@ -50,3 +50,6 @@ for(let i =0; i < quantityInput.length; i++){
     const input = quantityInput[i];
     input.addEventListener("change", onQuantityChange)
 }
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }

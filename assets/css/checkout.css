@@ -62,7 +62,8 @@ nav {
     padding-top: 1.5em;
 }
 input {
-    width: 2em;
+    width: 3em;
+    height: 2em;
 
 }
 .cartTotal{
@@ -88,7 +89,7 @@ input {
     float: right;
 }
 button.remove {
-    background-color: #F25287;
+    background-color: brown;
     border: none;
     border-radius: 1.5em;
     width: 5.5em;
@@ -96,7 +97,7 @@ button.remove {
     color: white;
 }
 button.arrow {
-    background-color: #F25287;
+    background-color: brown;
     border-radius: 50%;
     width: 2em;
     height: 2em;
@@ -104,30 +105,45 @@ button.arrow {
     padding: 0.3em;
 }
 button.checkout {
-    background-color: #F25287;
+    background-color: brown;
     color: white;
     border-radius: 10px;
     border: none;
     padding: 0.8em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 42d377451508a175255b3522387cb7ab00930fdf
     cursor: pointer;
     width: 10em;
-<<<<<<< HEAD
->>>>>>> 36c5d69f8ba5d2379893372b8fec252c92138fa0
-=======
     width: 10em;
->>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
-=======
-
->>>>>>> 42d377451508a175255b3522387cb7ab00930fdf
 }
+
 button > i{
     color: white;
 }
+#payment-details {
+    margin: 1em;
+    font-size: 0.5em;
+}
+.checkout-payment{
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    border-radius: 0.5em;
+    box-shadow: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    color: #fff;
+    padding: 3em 1em;
+    right: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+
+}
+
 
 #footer {
     width: 100%;
@@ -238,6 +254,7 @@ button > i{
       }
       
   }
+  
 /* Media querry */
 
 @media (max-width: 650px) {
