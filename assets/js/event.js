@@ -1,1 +1,3 @@
-function promptCheckout(){}
+function promptCheckout(){
+    var
+}
