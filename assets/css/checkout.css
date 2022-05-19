@@ -3,87 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ....................... NAVIGATION SECTION ............................. */
+ /* Navbar */
 
 nav {
-    padding: 1rem 2rem;
-    width: 90%;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    color: black;
-    margin: auto;
+    color: black !important;
 }
-nav > .navMenu {
-    display: flex;
-    align-items: center;
-    
-}
-/* LEFT NAVIGATION SECTION */
-nav > .navMenu > .navLeft{
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
-.navLeft > .logoImg {
-    width: 2.5rem;
-    height: 2.5rem;
-    object-fit: cover;
-    border-radius: 50%;
-    cursor: pointer;
-    opacity: 1;
-   margin-right: 0.5rem;
-}
-.navLeft > .logoImg:hover {
-    opacity: 0.8;
-    transition: all 250ms ease-in-out;
-}
-
-
-/* CENTER NAVIGATION SECTION */
-nav > .navMenu > .navCenter{
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav {
-    display: flex;
-   
-}
-
-.nav > li {
-    list-style: none !important;
-    font-weight: 200;
-    margin-right: 1rem;
-    padding: 0.5rem;
-    cursor: pointer;   
-}
-.nav > li:hover {
-    font-weight: 500;  
-    transition: all 250ms ease;
-}
-.nav > li > a {
-    text-decoration: inherit;
-    color: inherit;
-    
-}
-/* RIGHT NAVIGATION SECTION */
-nav > .navMenu > .navRight{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.profile > img {
-    width: 1.25rem;
-    height: 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-}
-
 /* Checkout section */
 
 .container {
