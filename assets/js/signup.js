@@ -126,7 +126,16 @@ function signin() {
         document.getElementById("lemail").value = "";
         document.getElementById("lpassword").value = "";
         //window.location.
+        window.location.href="./assets/pages/checkout.html";
         return;
     }
 
 }
+
+//prompt box
+// function mycheckout() {  
+//     if(confirm ("You will be redirected to checkout Page"))
+//     {
+//       window.location.href="./assets/pages/checkout.html";
+//     }
+//     } 
