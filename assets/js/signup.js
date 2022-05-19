@@ -1,23 +1,23 @@
-/*fuctions to switch between login page and signup page*/
+/*functions to switch between login page and signup page*/
 /*shows login page and hides registration*/
 function login() {
     document.getElementById('login').style.display = "none";
     document.getElementById('signup').style.display = "block";
 }
-/*hides login page and displays signu page*/
+/*hides login page and displays signup page*/
 function signup() {
     document.getElementById('signup').style.display = "none";
     document.getElementById('login').style.display = "block";
 }
-/*calls the function to display loginpage by default*/
 
-
+/*calls the function to display login page by default*/
 signup();
 
 //initialized arrays to store user data
 var emailArray = [];
 var passwordArray = [];
-var username = [];
+var usernameArray = [];
+
 
 /*function to register a user*/
 function register() {
@@ -97,7 +97,8 @@ function signin() {
     var i = emailArray.indexOf(email);
 
     //input fields validation
-    //check if email field is empty and if email exists as registered account
+    //check if email field is empty and if email exists as registered account 
+
     if (emailArray.indexOf(email) == -1) {
         if (email == "") {
             alert("Email required.");
