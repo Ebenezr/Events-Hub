@@ -1,103 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout</title>
-    <link rel="stylesheet" href="../css/checkout.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/checkout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="navMenu">
-          <div class="navLeft">
-            <img
-              class="logoImg"
-              src="../images/landingpage.png"
-              alt="logoImg"
-            />
+      <div class="navMenu">
+        <div class="navLeft">
+          <img class="logoImg" src="../images/landingpage.png" alt="logoImg" />
+        </div>
+        <div class="navCenter">
+          <ul class="nav">
+            <li><a href="#"> HOME</a></li>
+            <li><a href="#"> EVENTS </a></li>
+            <li><a href="#"> ABOUT US </a></li>
+            <li><a href="#"> CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="navRight">
+          <ul class="nav">
+            <li><a href="#"> LOGIN </a></li>
+          </ul>
+          <div class="profile">
+            <img src="../images/user-profile.png" alt="profileImg" />
           </div>
-          <div class="navCenter">
-            <ul class="nav">
-              <li><a href="#"> HOME</a></li>
-              <li><a href="#"> EVENTS </a></li>
-              <li><a href="#"> ABOUT US </a></li>
-              <li><a href="#"> CONTACT</a></li>
-            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>Your Events</h2>
+
+      <div class="cartItem">
+        <div class="edmfest">
+          <div class="edmfestpic">
+            <h2>EDM Fest</h2>
+            <img src="../images/grid2.jpg" alt="edmfest.png" />
           </div>
-          <div class="navRight">
-            <ul class="nav">
-              <li><a href="#"> LOGIN </a></li>
-            </ul>
-            <div class="profile">
-              <img src="../images/user-profile.png" alt="profileImg" />
+          <div class="festdetails">
+            <div class="price">
+              <p>Price</p>
+              <p class="cartPrice">Ksh2500</p>
+            </div>
+            <hr />
+            <div class="quantity">
+              <p>Quantity</p>
+              <button class="arrow">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </button>
+              <input class="cartQuantity" type="number" value="2" />
+              <button class="arrow">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </button>
+            </div>
+            <hr />
+            <div class="subtotal">
+              <p>Sub Total</p>
+              <p class="total">Ksh. 5000</p>
             </div>
           </div>
+          <button class="cartTotal">Total</button>
         </div>
-      </nav>  
-
-<div class="container">
-<h2>Your Events</h2>
-
-    <div class="cart-tem">
-   <div class="edmfest">
-      <div class="edmfestpic">
-          <h2>EDM Fest</h2>
-          <img src="../images/grid2.jpg" alt="edmfest.png">
-      </div>
-
-      <div class="festdetails">
-          <div class="price">
+        <div class="edmfest">
+          <div class="edmfestpic">
+            <h2>EDM Fest</h2>
+            <img src="../images/grid2.jpg" alt="edmfest.png" />
+          </div>
+          <div class="festdetails">
+            <div class="price">
               <p>Price</p>
-              <p>Ksh. 2,500</p>
-          </div>
-          <hr>
-          <div class="quantity">
+              <p class="cartPrice">Ksh2500</p>
+            </div>
+            <hr />
+            <div class="quantity">
               <p>Quantity</p>
-              <button class="arrow"><i class="fa fa-plus" aria-hidden="true"></i></button>
-              <input type="number">
-              <button class="arrow"><i class="fa fa-minus" aria-hidden="true"></i></button>
-          </div>
-          <hr>
-          <div class="subtotal">
+              <button class="arrow">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </button>
+              <input class="cartQuantity" type="number" value="1" />
+              <button class="arrow">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </button>
+            </div>
+            <hr />
+            <div class="subtotal">
               <p>Sub Total</p>
-              <p>Ksh. 5,000</p>
+              <p class="total">Ksh. 5000</p>
+            </div>
           </div>
+          <button class="cartTotal">Total</button>
+        </div>
+
+        <div class="total">
+          <p>Total Ksh 8,500</p>
+          <button class="checkout">Checkout</button>
+        </div>
       </div>
-   </div>
-
-  <div class="edmfest">
-    <div class="edmfestpic">
-        <h2>Food Plus</h2>
-        <img src="../images/foodplus.jpg" alt="edmfest.png">
     </div>
 
-    <div class="festdetails">
-        <div class="price">
-            <p>Price</p>
-            <p>Ksh. 2,500</p>
-        </div>
-        <hr>
-        <div class="quantity">
-            <p>Quantity</p>
-            <button class="arrow"><i class="fa fa-plus" aria-hidden="true"></i></button>
-            <input type="number">
-            <button class="arrow"><i class="fa fa-minus" aria-hidden="true"></i></button>
-        </div>
-        <hr>
-        <div class="subtotal">
-            <p>Sub Total</p>
-            <p>Ksh. 5,000</p>
-        </div>
-    </div>
-   </div>
-
-   <div class="total">
-       <p>Total Ksh 8,500</p> 
-       <button class="checkout">Checkout</button>
-  </div>
-</div>
-   
-</div>
+    <script src="../js/cart.js"></script>
+  </body>
 </html>
