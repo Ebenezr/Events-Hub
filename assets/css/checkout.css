@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #ECECEC;
+}
  /* Navbar */
 
 nav {
@@ -62,8 +65,13 @@ nav {
     padding-top: 1.5em;
 }
 input {
+<<<<<<< HEAD
     width: 3em;
     height: 2em;
+=======
+    padding: 0.3em;
+    border:none;
+>>>>>>> 389dfd9729cdcd8d3e92ea39524d58d3557f2dfa
 
 }
 .cartTotal{
@@ -113,6 +121,7 @@ button.checkout {
     cursor: pointer;
     width: 10em;
     width: 10em;
+
 }
 
 button > i{
@@ -132,7 +141,7 @@ button > i{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.802);
     color: #fff;
     padding: 3em 1em;
     right: 2em;

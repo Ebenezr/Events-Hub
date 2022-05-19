@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     padding: 2rem 3rem;
+   
   }
   #footer > h1 {
     text-align: center;
