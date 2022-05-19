@@ -9,15 +9,23 @@ function signup() {
     document.getElementById('signup').style.display = "none";
     document.getElementById('login').style.display = "block";
 }
+<<<<<<< HEAD
 /*calls the function to display loginpage by default*/
 
 
+=======
+/*calls the function to display login page by default*/
+>>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
 signup();
 
 //initialized arrays to store user data
 var emailArray = [];
 var passwordArray = [];
+<<<<<<< HEAD
 var username = [];
+=======
+var usernameArray = [];
+>>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
 
 /*function to register a user*/
 function register() {
@@ -97,7 +105,11 @@ function signin() {
     var i = emailArray.indexOf(email);
 
     //input fields validation
+<<<<<<< HEAD
     //check if email field is empty and if email exists as registered account
+=======
+    //check if email field is empty and if email exists as registered account 
+>>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
     if (emailArray.indexOf(email) == -1) {
         if (email == "") {
             alert("Email required.");

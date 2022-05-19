@@ -15,6 +15,7 @@
 //     });
 // }
 
+<<<<<<< HEAD
   
 
 // const onSelect = () =>{
@@ -73,3 +74,17 @@ for(let i = 0; i < addToSingleEventButtons.length; i++){
     addButton.addEventListener("click", addToEvents);
 }
 
+=======
+
+
+const onSelect = () =>{
+   const cards = document.querySelector(".eventCard");
+
+   cards.forEach(card => {
+    card.addEventListener("click", function(){
+        console.log("yes")
+    })
+   });
+}
+onSelect();
+>>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079

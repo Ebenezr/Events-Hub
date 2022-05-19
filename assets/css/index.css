@@ -9,8 +9,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* ....................... NAVIGATION SECTION ............................. */
-
 
 /* .............................. LANDING SECTION ........................................... */
 #landingSection {
@@ -50,6 +48,12 @@ body {
     font-size: 1.2rem;
 
     
+}
+.heading button:hover{
+    background-color: white;
+    border:none;
+    color: #000;
+
 }
 
 /* ....................... UPCOMING EVENTS SECTION ................................ */
@@ -158,4 +162,3 @@ body {
     vertical-align: super;
 }
 
-/* ........................... FOOTER SECTION ..................................... */
