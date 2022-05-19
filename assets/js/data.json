@@ -1,7 +1,7 @@
 [
     {
       "id":"1",
-      "img": {"url":"../images/grid2.jpg"},
+      "img": "../images/grid2.jpg",
       "title": "Fest Event",
       "venue": "Signature Club",
       "price": 2000
@@ -9,7 +9,7 @@
     },
     {
       "id":"2",
-      "img": {"url":"../images/grid.jpg"},
+      "img": "../images/grid.jpg",
       "title": "EDM Fest",
       "venue": "Simba Lounge",
       "price": 1800
@@ -17,7 +17,7 @@
     },
     {
       "id":"3",
-     "img": {"url":"../images/grid3.jpg"},
+     "img": "../images/grid3.jpg",
       "title": "Crossover",
      "venue": "Quiver Lounge",
       "price": 1000
@@ -25,7 +25,7 @@
     },
     {
       "id":"4",
-      "img": {"url":"../images/foodplus.jpg"},
+      "img": "../images/foodplus.jpg",
       "title": "Food Plus",
       "venue": "Club Life Style",
       "price": 2000
@@ -33,7 +33,7 @@
     },
     {
       "id":5,
-      "img": {"url":"../images/kidsfest.jpg"},
+      "img": "../images/kidsfest.jpg",
       "title": "Kids Fest",
       "venue": "Maple Valle7",
       "price": 500
@@ -41,7 +41,7 @@
     },
     {
       "id":"6",
-      "img": {"url":"../images/grid5.jpg"} ,
+      "img": "../images/grid5.jpg" ,
       "title": "Country Night",
      " venue": "KICC",
       "price": 2500

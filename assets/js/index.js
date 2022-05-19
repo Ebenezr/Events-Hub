@@ -65,6 +65,25 @@ const addToEvents = (event) => {
     eventConfirm(title, price,venue)
 }
 
+
+
+const addToSingleEventButtons = document.getElementsByClassName("addButton");
+for(let i = 0; i < addToSingleEventButtons.length; i++){
+    const addButton = addToSingleEventButtons[i];
+    addButton.addEventListener("click", addToEvents);
+}
+
+
+const eventConfirm = (title, price,venue) =>{
+    confirm(
+        "Title: " + title + "\n" +
+        "Venue: " + venue + "\n" +
+        "Price: " + price + "\n"
+         
+
+    )
+}
+
 const addItemsToEvent = (title, price, venue, imageSrc) => {
     const eventHolder = document.createElement("div");
     eventHolder.classList.add("event_holder")
@@ -90,31 +109,3 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
     // eventHolder.innerHTML = eventHolderContents;
     // eventContainer.append(eventHolder)
 }
-
-const addToSingleEventButtons = document.getElementsByClassName("addButton");
-for(let i = 0; i < addToSingleEventButtons.length; i++){
-    const addButton = addToSingleEventButtons[i];
-    addButton.addEventListener("click", addToEvents);
-}
-
-const onSelect = () =>{
-   const cards = document.querySelector(".eventCard");
-
-   cards.forEach(card => {
-    card.addEventListener("click", function(){
-        console.log("yes")
-    })
-   });
-}
-onSelect();
-const eventConfirm = (title, price,venue) =>{
-    confirm(
-        "Title: " + title + "\n" +
-        "Venue: " + venue + "\n" +
-        "Price: " + price + "\n"
-         
-
-    )
-}
-
-
