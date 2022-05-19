@@ -49,10 +49,16 @@ body {
 
     
 }
+
 .heading button:hover{
     background-color: white;
     border:none;
     color: #000;
+
+}
+#landingSection > .heading > button a {
+    text-decoration: inherit;
+    color: inherit;  
 
 }
 

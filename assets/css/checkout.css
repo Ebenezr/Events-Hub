@@ -3,87 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ....................... NAVIGATION SECTION ............................. */
+ /* Navbar */
 
 nav {
-    padding: 1rem 2rem;
-    width: 90%;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    color: black;
-    margin: auto;
+    color: black !important;
 }
-nav > .navMenu {
-    display: flex;
-    align-items: center;
-    
-}
-/* LEFT NAVIGATION SECTION */
-nav > .navMenu > .navLeft{
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
-.navLeft > .logoImg {
-    width: 2.5rem;
-    height: 2.5rem;
-    object-fit: cover;
-    border-radius: 50%;
-    cursor: pointer;
-    opacity: 1;
-   margin-right: 0.5rem;
-}
-.navLeft > .logoImg:hover {
-    opacity: 0.8;
-    transition: all 250ms ease-in-out;
-}
-
-
-/* CENTER NAVIGATION SECTION */
-nav > .navMenu > .navCenter{
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav {
-    display: flex;
-   
-}
-
-.nav > li {
-    list-style: none !important;
-    font-weight: 200;
-    margin-right: 1rem;
-    padding: 0.5rem;
-    cursor: pointer;   
-}
-.nav > li:hover {
-    font-weight: 500;  
-    transition: all 250ms ease;
-}
-.nav > li > a {
-    text-decoration: inherit;
-    color: inherit;
-    
-}
-/* RIGHT NAVIGATION SECTION */
-nav > .navMenu > .navRight{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.profile > img {
-    width: 1.25rem;
-    height: 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-}
-
 /* Checkout section */
 
 .container {
@@ -158,6 +82,7 @@ input {
     padding: 1.5em 1.5em;
     margin: 0 auto;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 .container > .total {
     float: right;
@@ -186,17 +111,133 @@ button.checkout {
     padding: 0.8em;
 <<<<<<< HEAD
 <<<<<<< HEAD
-    cursor: pointer;
+<<<<<<< HEAD
 =======
+>>>>>>> 42d377451508a175255b3522387cb7ab00930fdf
+    cursor: pointer;
     width: 10em;
+<<<<<<< HEAD
 >>>>>>> 36c5d69f8ba5d2379893372b8fec252c92138fa0
 =======
     width: 10em;
 >>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
+=======
+
+>>>>>>> 42d377451508a175255b3522387cb7ab00930fdf
 }
 button > i{
     color: white;
 }
+
+#footer {
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+  }
+  #footer > h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  #footer > .footerContainer {
+    display: flex;
+    margin-top: 3rem;
+    height: 20vh;
+  }
+  #footer > .footerContainer > .footerLeft {
+    flex:1;
+    
+  }
+  .footerLeft > .socialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .footerLeft > .socialContainer > .fab {
+    width: 1.1rem;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  #footer i{
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+
+  }
+  #footer > .footerContainer > .footerCenter {
+    flex:1;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #footer > .footerContainer > .footerCenter > h3 {
+    font-weight: 300;
+    opacity: 0.8;
+  }
+  #footer > .footerContainer > .footerCenter > p {
+    font-weight: 300;
+    opacity: 0.6;
+  }
+  #footer > .footerContainer > .footerRight {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+  }
+  .icon {
+    margin: 0.7rem;
+  }
+  .icon > .fas {
+    margin-right: 0.7rem;
+  }
+  
+  .footerContainer > hr {
+    width: 70%;
+    margin: auto;
+  }
+  @media screen and (max-width: 720px){
+      #footer{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        
+
+      }
+      #footer h1{
+          margin: 0;
+      }
+      .footerContainer{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          
+          
+      }
+      .socialContainer{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          margin-bottom: 0.6em;
+          
+      }
+      .footerCenter{
+          margin-bottom:0.4em;
+      }
+      .footerRight{
+          text-align: center;
+      }
+      
+  }
 /* Media querry */
 
 @media (max-width: 650px) {
