@@ -7,13 +7,6 @@ body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
-<<<<<<< HEAD
-
-body{
-    font-family: 'Josefin Sans', sans-serif;
-}
-=======
->>>>>>> 9c61b8ed685abe2a69909f83ca2edcbf9927c079
 
 /* Navigatio Bar Section */
 
@@ -86,6 +79,10 @@ button.checkout{
     padding: 1rem;
     margin-top: 3rem;
     cursor: pointer;
+}
+button > a {
+    text-decoration: none !important;
+    color: inherit;
 }
 
 /* media query of small screens */
