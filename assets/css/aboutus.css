@@ -164,10 +164,70 @@ div.right > p{
 }
 
 @media only screen and (max-width: 720px) {
-    div.aboutus_section{
+    div.aboutus_parent{
+        width: 100%;
+        margin:0;
+        margin-top:2em;
+        
+    }
+    .aboutus_section{
         display: block;
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+    div.aboutus_container{
+        width:90%;
+        margin: 1em auto;
+        border-radius:1em;
+        padding: 0;
+        background-color:rgb(189, 189, 189);
+    }
+    div.aboutus_header h1{
+        font-size:1.5em;
+        margin:0;
+    }
+    div.aboutus_section{
+        width:100%;
+        margin:1em 0;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    div.aboutus_section.center{
+        width:100%;
+        margin:1em 0;
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+        
+    }
+    div.center.right{
+        justify-self: flex-end;
+
+    }
+    div.right> p{
+        width:100%;
+        font-size:1em;
+    }
+    div.left{
+        width:100%;
+        padding:0;
+        margin:0;
+        text-align: center;
+    }
+    div.left >p{
+        width:100%;
+        font-size:1em;
+    }
+    div.right{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    div.aboutus_section img{
+        width:100%;
+        margin:0;
+        border-radius: 0 0 2em 2em;
     }
 }

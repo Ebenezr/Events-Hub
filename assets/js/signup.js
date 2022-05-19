@@ -9,15 +9,13 @@ function signup() {
     document.getElementById('signup').style.display = "none";
     document.getElementById('login').style.display = "block";
 }
-/*calls the function to display loginpage by default*/
-
-
+/*calls the function to display login page by default*/
 signup();
 
 //initialized arrays to store user data
 var emailArray = [];
 var passwordArray = [];
-var username = [];
+var usernameArray = [];
 
 /*function to register a user*/
 function register() {

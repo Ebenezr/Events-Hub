@@ -149,6 +149,12 @@ nav>.navMenu>.navRight {
 
     
 }
+.heading button:hover{
+    background-color: white;
+    border:none;
+    color: #000;
+
+}
 
 /* ....................... UPCOMING EVENTS SECTION ................................ */
 #events {
@@ -256,6 +262,7 @@ nav>.navMenu>.navRight {
     vertical-align: super;
 }
 
+<<<<<<< Updated upstream
 /* ........................... FOOTER SECTION ..................................... */
 #footer {
     width: 100%;
@@ -337,3 +344,26 @@ nav>.navMenu>.navRight {
     margin: auto;
 }
 
+=======
+/* ........................... Media query ..................................... */
+@media screen and (max-width: 700px) {
+
+    .eventsWrapper{
+        display:flex;
+        flex-direction: column;
+       
+        justify-content:center;
+    }
+    .eventCard{
+        width:100% !important;
+        height:auto !
+    }
+    .heading h1{
+        font-size:2em;
+    }
+    .header p{
+        font-size:1em;
+
+    }
+}
+>>>>>>> Stashed changes
