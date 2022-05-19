@@ -8,7 +8,19 @@
 - [Timothy Mailu](https://github.com/Tim254)
 ***
 ## Screenshot
- ![image](./assets/images/fireshot.png)
+ ### landing page Desktop
+ ![image](./assets/images/FireShotCapture_D.png)
+ ***
+ ### mobile
+ ![image](./assets/images/fireShotCapture_M.png)
+ ***
+
+ ### events info
+ ![image](./assets/images/FireShotCapture_info.png)
+ ***
+ ### checkout
+ ![image](./assets/images/)
+
 ***
  ## Table of Content
  - [Figma Design](#Figma-design)
@@ -19,6 +31,7 @@
  - [Installation Process](#installation-Process)
  - [Live Link](#Live-Link)
  - [Technology  Used](#technology-Used)
+ - [Challanges faced](#challanges-faced)
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  
@@ -55,8 +68,11 @@ As a user of the application,you will be able to :
 * CSS - which was used to style the web pages
 * JavaScript - which was used for adding functionality to the web page elements.
 ***
+## challanges faced
+We had a hardtime implimenting the add to cart functionality, (geting infomation from one html via dom and sending it to another page)
+
 ## Known Bugs
-* The result button is work in progress
+* Checkout button sometime doesnt load
 ***
 ## Licence
 MIT License

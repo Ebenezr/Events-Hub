@@ -50,7 +50,7 @@ body {
     
 }
 
-.heading button:hover{
+#landingSection > .heading > button:hover{
     background-color: white;
     border:none;
     color: #000;
@@ -139,13 +139,17 @@ body {
     margin-top: 1rem;
     cursor:pointer;
     border:none;
-    background-color: black;
+    background-color: brown;
     color:white;
     border-radius: 0.625rem;
     padding: 0.625rem 1rem;
 
 
 }
+.eventCard > .infoContainer > button:hover {
+background-color: rgb(201, 53, 53);
+}
+
 .price {
     font-weight: 700;
 }
@@ -168,3 +172,24 @@ body {
     vertical-align: super;
 }
 
+
+@media screen and (max-width: 700px) {
+
+    .eventsWrapper{
+        display:flex;
+        flex-direction: column;
+       
+        justify-content:center;
+    }
+    .eventCard{
+        width:100% !important;
+        height:auto !
+    }
+    .heading h1{
+        font-size:2em;
+    }
+    .header p{
+        font-size:1em;
+
+    }
+}

@@ -8,7 +8,7 @@ window.addEventListener("load", () =>{
    
     const addToCartButton = document.querySelector(".checkout");
     addToCartButton.addEventListener("click", function(){
-    window.location = "./checkout.html"
+    window.location = "./signup.html"
 })
     
 });
