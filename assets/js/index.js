@@ -40,19 +40,6 @@
 
   
 
-// const onSelect = () =>{
-//    const cards = document.querySelector(".eventCard");
-
-//    cards.forEach(card => {
-//     card.addEventListener("click", function(){
-//         console.log("yes")
-//     })
-//    });
-// }
-// onSelect();
-
-// ADD AN EVENT TO A SINGLE PAGE WHEN IT IS SELECTED
-
 
 const addToEvents = (event) => {
     const addButton = event.target;
@@ -61,8 +48,11 @@ const addToEvents = (event) => {
     const price = cardItem.getElementsByClassName("price")[0].textContent;
     const venue = cardItem.getElementsByClassName("venue")[0].textContent;
     const imageSrc = cardItem.getElementsByClassName("eventImg")[0].src;
-    addItemsToEvent(title, price,venue,imageSrc);
-    eventConfirm(title, price,venue)
+    localStorage.setItem("TITLE", title)
+    localStorage.setItem("PRICE", price)
+    localStorage.setItem("VENUE", venue)
+    localStorage.setItem("IMAGESRC", imageSrc)
+    window.location.href = "./assets/pages/event.html"
 }
 
 
@@ -73,49 +63,5 @@ for(let i = 0; i < addToSingleEventButtons.length; i++){
     addButton.addEventListener("click", addToEvents);
 }
 
-
-const eventConfirm = (title, price,venue) =>{
-    confirm(
-        "Title: " + title + "\n" +
-        "Venue: " + venue + "\n" +
-        "Price: " + price + "\n"
-         
-
-    )
-}
-
-const addItemsToEvent = (title, price, venue, imageSrc) => {
-    const eventHolder = document.createElement("div");
-    // eventHolder.classList.add("event_holder")
-    const eventContainer = document.getElementById("display");
-    const eventHolderContents = `
-        <div class="event_holder">
-        <div class="event_image">
-            <img src="${imageSrc}" alt="">
-        </div>
-        <div class="event_description">
-            <div class="event_info">
-                <div class="event_details">
-                    <h4>${title}</h4>
-                    <p class="venue">${venue}</p>
-                    <p class="date">Date: June 6th 2022</p>
-                    <p class="price">${price}</p>
-                </div>
-                <button class="checkout" onclick="promptCheckout()">ADD TO CART</button>
-            </div>
-        </div>
-    `
-   
-    eventHolder.innerHTML = eventHolderContents;
-    eventContainer.appendChild(eventHolder)
-}
-
-
-    const titles = document.getElementsByClassName("eventTitle");
-    for(let i = 0; i < titles.length; i++){
-        titles[i].addEventListener("click", function(){
-            window.location.href = "./assets/pages/event.html"
-        })
-    }
     
     
