@@ -138,7 +138,16 @@ nav > .navMenu > .navRight{
     padding-top: 1.5em;
 }
 input {
-    width: 3em;
+    width: 2em;
+
+}
+.cartTotal{
+    background-color: #F25287;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.8em;
+    cursor: pointer !important;
 }
 .total {
     display: flex;
@@ -175,7 +184,11 @@ button.checkout {
     border-radius: 10px;
     border: none;
     padding: 0.8em;
+<<<<<<< HEAD
+    cursor: pointer;
+=======
     width: 10em;
+>>>>>>> 36c5d69f8ba5d2379893372b8fec252c92138fa0
 }
 button > i{
     color: white;
