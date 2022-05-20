@@ -49,11 +49,15 @@ body {
 
     
 }
+#landingSection > .heading > button:hover{
+    background-color:white;
+    color: black;
+}
 
 .heading button:hover{
     background-color: white;
     border:none;
-    color: #000;
+    color: rgb(46, 46, 46);
 
 }
 #landingSection > .heading > button a {
@@ -145,6 +149,9 @@ body {
     padding: 0.625rem 1rem;
 
 
+}
+.eventCard > .infoContainer > button:hover{
+    background-color:rgb(46, 46, 46);
 }
 .price {
     font-weight: 700;

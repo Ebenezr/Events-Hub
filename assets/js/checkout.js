@@ -76,7 +76,7 @@ const addItemsToEvent = (title, price, imageSrc) => {
             </div>
             <hr>
             <div class="subtotal">
-                <p class="subtototalprice">Ksh2500</p>
+                <p class="subtototalprice">${price}</p>
                 <button class="remove">remove</button>
             </div>
         </div>

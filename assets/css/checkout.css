@@ -123,6 +123,9 @@ button.myCheckout {
     width: 10em;
 
 }
+button.myCheckout{
+    background-color:rgb(36, 36, 36);
+}
 
 button > i{
     color: white;
