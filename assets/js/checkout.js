@@ -52,6 +52,22 @@ function paymentpop(){
     document.getElementById('payment-details').style.display="block";
    
 } 
+
+var removeEvent = document.getElementsByClassName('remove')
+
+for (i = 0; i < removeEvent.length; i++) {
+    var button = removeEvent[i]
+    button.addEventListener('click', function(event) {
+        var buttonClicked = event.target
+        buttonClicked.parentElement.parentElement.parentElement.remove()
+    
+    }) 
+
+    // var quantityInputs = getElementsByClassName('quantity')
+    // for (i = 0; i < quantityInputs.length; i++)
+
+}
+
 });
 
 const addItemsToEvent = (title, price, imageSrc) => {
@@ -128,17 +144,3 @@ function hide() {
 
 
 
-var removeEvent = document.getElementsByClassName('remove')
-
-for (i = 0; i < removeEvent.length; i++) {
-    var button = removeEvent[i]
-    button.addEventListener('click', function(event) {
-        var buttonClicked = event.target
-        buttonClicked.parentElement.parentElement.parentElement.remove()
-    
-    }) 
-
-    // var quantityInputs = getElementsByClassName('quantity')
-    // for (i = 0; i < quantityInputs.length; i++)
-
-}
