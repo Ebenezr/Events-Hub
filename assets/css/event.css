@@ -45,7 +45,7 @@ div.event_description{
     width: 50%;
     line-height: 1.5;
     text-align: center;
-    border: 1px solid rgb(199, 199, 199);
+    border: 1px solid rgba(199, 199, 199, 0);
 }
 
 .eventCard > .infoContainer > p {
