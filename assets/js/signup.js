@@ -40,10 +40,6 @@ function register() {
         alert("Email required.");
         return;
     }
-   else if(email.value.match(emailFormat)){
-        alert("Enter valid email format.");
-        return;
-    }
     
 
     // //check if password input in empty

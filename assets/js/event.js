@@ -8,7 +8,7 @@ window.addEventListener("load", () =>{
    
     const addToCartButton = document.querySelector(".checkout");
     addToCartButton.addEventListener("click", function(){
-    window.location.href = "./checkout.html"
+    window.location.href = "./signup.html"
 })
     
 });
@@ -30,7 +30,7 @@ const addItemsToEvent = (title, price, venue, imageSrc) => {
                     <p class="date">Date: June 6th 2022</p>
                     <p class="price">${price}</p>
                 </div>
-                <button class="checkout" ><a href="./assets/pages/checkout.html">CheckOut</a></button>
+                <button class="checkout" ><a href="./signup.html">CheckOut</a></button>
             </div>
         </div>
     `

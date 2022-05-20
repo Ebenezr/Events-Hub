@@ -74,8 +74,9 @@ div.left > h3{
 }
 
 div.left > p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
+    font-weight:300;
     width: 90%;
 }
 
@@ -95,9 +96,10 @@ div.right > h3{
 }
 
 div.right > p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
     width: 90%;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 720px) {

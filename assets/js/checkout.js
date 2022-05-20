@@ -89,7 +89,14 @@ const addItemsToEvent = (title, price, imageSrc) => {
 }
 
 
+function paymentpop(){
+    document.getElementById('payment-details').style.display="block";
+   
+}
 
+function hide() {
+    document.getElementById('payment-details').style.display="none";
+}
 
 
 
