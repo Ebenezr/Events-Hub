@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -176,15 +177,23 @@ body {
 }
 
 @media (max-width:700px){
+    div.eventContainer{
+        padding: 0;
+        margin: 0;
+    }
     div.eventsWrapper{
         display: flex;
+        width: 90%;
+        margin: 0 auto;
         flex-direction: column;
         padding: 0;
         justify-content: unset;
+        gap: 2rem;
         
     }
-    div.eventCard{
+    .eventsWrapper > .eventCard{
         width: 100%;
+        height: auto;
         margin: 0;
     }
     div.imgContainer{
