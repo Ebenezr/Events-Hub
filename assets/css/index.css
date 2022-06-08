@@ -175,3 +175,19 @@ body {
     vertical-align: super;
 }
 
+@media (max-width:700px){
+    div.eventsWrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: unset;
+        
+    }
+    div.eventCard{
+        width: 100%;
+        margin: 0;
+    }
+    div.imgContainer{
+        width: 100%;
+    }
+}
